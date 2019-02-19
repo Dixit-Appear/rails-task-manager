@@ -1,6 +1,6 @@
-  <h1><%= @tasks.title %></h1>
-  <p class="details"><%= @tasks.details %></p>
-    <% if @tasks.completed  %>
+  <h1><%= @task.title %></h1>
+  <p class="details"><%= @task.details %></p>
+    <% if @task.completed  %>
       <i class="far fa-check-square"><p>This task is completed</p></i>
     <% else %>
       <i class="far fa-square"><p>This task is not completed yet</p></i>
